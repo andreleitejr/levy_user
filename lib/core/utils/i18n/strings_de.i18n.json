@@ -1,0 +1,30 @@
+{
+  "user": {
+    "header": {
+      "title": "Profil",
+      "welcome": "Willkommen"
+    },
+    "items": {
+      "account": {
+        "title": "Konto",
+        "description": "Informationen zu Ihrem Konto"
+      },
+      "reservations": {
+        "title": "Reservierungen",
+        "description": "Informationen zu Ihren Reservierungen"
+      },
+      "configurations": {
+        "title": "Einstellungen & Präferenzen",
+        "description": "Verwalten Sie Ihre Einstellungen und Präferenzen"
+      },
+      "support": {
+        "title": "Support",
+        "description": "Teilen Sie uns Ihr Problem mit, und wir helfen Ihnen"
+      },
+      "about": {
+        "title": "Über Levy",
+        "description": "Erfahren Sie mehr über unsere App"
+      }
+    }
+  }
+}
