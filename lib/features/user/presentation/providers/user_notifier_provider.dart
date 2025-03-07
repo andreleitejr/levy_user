@@ -4,5 +4,5 @@ import 'package:levy_user/features/user/presentation/providers/user_usecase_prov
 import 'package:levy_user/features/user/presentation/states/user_state.dart';
 
 final userNotifierProvider = StateNotifierProvider<UserNotifier, UserState>((ref) {
-  return UserNotifier(ref.read(userUseCaseProvider));
+  return UserNotifier(ref.read(getUserUseCaseProvider));
 });

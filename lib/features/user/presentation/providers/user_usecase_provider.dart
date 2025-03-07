@@ -3,6 +3,6 @@ import 'package:levy_user/features/user/domain/usecases/get_user_usecase.dart';
 import 'package:levy_user/features/user/domain/usecases/get_user_usecase_impl.dart';
 import 'package:levy_user/features/user/presentation/providers/user_repository_provider.dart';
 
-final userUseCaseProvider = Provider<GetUserUseCase>((ref) {
+final getUserUseCaseProvider = Provider<GetUserUseCase>((ref) {
   return GetUserUseCaseImpl(ref.read(userRepositoryProvider));
 });

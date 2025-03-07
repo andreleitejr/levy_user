@@ -1,7 +1,7 @@
 import 'package:injectable/injectable.dart';
 import 'package:levy_user/features/user/data/datasources/user_datasource.dart';
 import 'package:levy_user/features/user/domain/repositories/user_repository.dart';
-import 'package:levy_shared_entities/entities.dart';
+import 'package:levy_shared_entities/shared_entities.dart';
 
 @Injectable(as: UserRepository)
 final class UserRepositoryImpl implements UserRepository {
